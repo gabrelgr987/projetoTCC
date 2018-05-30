@@ -1,0 +1,53 @@
+#turmatin
+{
+	display:none;
+}
+#turmatrt
+{
+	display:none;
+}
+#trt1
+{
+	display:none;
+}
+#trt2
+{
+	display:none;
+}
+#trt3
+{
+	display:none;
+}
+#tin1
+{
+	display:none;
+}
+#tin2
+{
+	display:none;
+}
+#tin3
+{
+	display:none;
+}
+input[type="radio"]
+{
+    display:none;
+    }
+input[type="radio"] + label
+{
+    color:#000000;
+}
+input[type="radio"] + label span
+{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+input[type="radio"]:checked + label span {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -56px top no-repeat;
+}

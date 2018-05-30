@@ -1,0 +1,70 @@
+@media screen
+{
+	#botao2
+	{
+		display: block;
+	}
+	#botao
+	{
+		display: none;
+	}
+	/*.overlay
+	{
+		display:block;
+	}*/
+	#img-pri
+	{
+		background-image:url('../img/background/celular.png');
+	}
+	#contpc
+	{
+		display: none;
+	}
+	#contcel
+	{
+		display: block;
+	}
+	#formpc
+	{
+		display: none;
+	}
+	#formcel
+	{
+		display: block;
+	}
+}
+@media (min-width: 700px)
+{
+	/*.overlay
+	{
+	display:none;
+	}*/
+	#botao2
+	{
+		display: none;
+	}
+	#botao
+	{
+		display: block;
+	}
+	#img-pri
+	{
+		background-image:url('../img/background/blur2.png');
+	}
+	#contpc
+	{
+		display: block;
+	}
+	#contcel
+	{
+		display: none;
+	}
+	#formpc
+	{
+		display: block;
+	}
+	#formcel
+	{
+		display: none;
+	}
+}

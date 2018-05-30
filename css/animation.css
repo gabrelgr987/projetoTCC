@@ -1,0 +1,129 @@
+@keyframes face
+{
+    0%   {top:0px;}
+    13%  {top:10px;}
+   	26%  {top:-10px;}
+   	100% {top:0px;}
+}
+@keyframes email
+{
+    0%   {top:0px;}
+    23%  {top:10px;}
+   	46%  {top:-10px;}
+   	100% {top:0px;}
+}
+@keyframes link
+{
+    0%   {top:0px;}
+    33%  {top:10px;}
+   	66%  {top:-10px;}
+   	100% {top:0px;}
+}
+#footer #face i
+{
+   	width: 100px;
+    height: 100px;
+	  position: relative;
+    animation-name: face;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+#footer #email i
+{
+   	width: 100px;
+	  height: 100px;
+    position: relative;
+    animation-name: email;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+#footer #link i
+{
+   	width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: link;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+/*
+@keyframes shake
+{
+	from,
+	to
+	{
+		transform: translate3d(0, 0, 0);
+	}
+	10%,
+	30%,
+	50%,
+	70%,
+	90%
+	{
+    	transform: translate3d(-10px, 0, 0);
+ 	}
+ 	20%,
+ 	40%,
+ 	60%,
+  	80%
+ 	{
+   		transform: translate3d(10px, 0, 0);
+ 	}
+}
+@keyframes swing
+{
+	20%
+	{
+    	transform: rotate3d(0, 0, 1, 15deg);
+	}
+  	40%
+  	{
+    	transform: rotate3d(0, 0, 1, -10deg);
+	}
+  	60%
+  	{
+	   	transform: rotate3d(0, 0, 1, 5deg);
+  	}
+  	80%
+	{
+    	transform: rotate3d(0, 0, 1, -5deg);
+  	}
+  	to
+	{
+    	transform: rotate3d(0, 0, 1, 0deg);
+  	}
+}
+.shake
+{
+	animation-name:shake;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+.swing
+{
+	transform-origin: top center;
+	animation-name: swing;
+	animation-duration: 1s;
+ 	animation-fill-mode: both;
+  	animation-iteration-count: infinite;
+}
+*/
+/*
+--- HTML ---
+<onmouseover="apaText(this.id)" onmouseout="desaText(this.id)">
+
+--- JAVASCRIPT ---
+<script type="text/javascript">
+	function apaText(x)
+	{
+		document.getElementById(x).classList.add('shake');
+		// document.getElementById(x).addClass('shake');
+	}
+	function desaText(x)
+	{
+		document.getElementById(x).classList.remove('shake');
+		// document.getElementById(x).removeClass('shake');
+	}
+</script>
+*/
