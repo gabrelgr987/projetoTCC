@@ -32,7 +32,7 @@
 		}
 	</style>
 </head>
-<body class="bg-img" style="background-image:url('img/background/mao1.png');">
+<body class="bg-img" style="background-image:url('img/background/mao.png');">
 	<nav id="nav" class="navbar fixed-nav" style="background-color:#FFFFFF;border-radius:0px;padding-bottom:25px;border-bottom:1px solid #e8e9ea">
 		<div class="container">
 			<div class="navbar-header">

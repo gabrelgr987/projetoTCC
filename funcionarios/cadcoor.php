@@ -73,10 +73,11 @@
 	<div class="row">
 		<div class="col-md-2">
 			<div class="nav flex-column bg-dark menuV" style="color:#FFF">
-			  	<a class="nav-link" style="margin-top:30px;" href="cadastrar.php">Início</a>
+			  	<a class="nav-link" style="margin-top:30px;" href="cadastrar.php">Professores Cadastrados</a>
 			  	<a class="nav-link" href="cadprof.php">Cadastrar Professores</a>
 			  	<a class="nav-link active" href="cadcoor.php">Cadastrar Coordernadores</a>
 			  	<a class="nav-link" href="cadalu.php">Alunos Cadastrados</a>
+			  	<a class="nav-link" href="exclusao.php">Exclusão de Registros</a>
 			</div>
 		</div>
 		<div class="col-md-10">

@@ -3,8 +3,8 @@
 	session_start();
 
 	//VARIÁVEIS
-	$uid = 1019;
-	$gid = 1022;
+	$uid = 1007;
+	$gid = 1007;
 	$shell = '/sbin/nologin';
 	$coor = $_POST['coor'];
 	$userC = $_POST['userC'];

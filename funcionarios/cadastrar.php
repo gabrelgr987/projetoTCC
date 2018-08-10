@@ -8,7 +8,7 @@
 		$login = $_SESSION['usuario'];
 		if($logado == 1)
 		{
-			$sql = "SELECT * FROM ftpuser WHERE uid = 1007";
+			$sql = "SELECT * FROM ftpuser WHERE uid = 1004";
 			$resul = mysqli_query($conexao, $sql);
 			$dados = mysqli_fetch_array($resul);
 
@@ -109,11 +109,12 @@
 	</nav>
 	<div class="row">
 		<div class="col-md-2">
-			<div class="nav flex-column bg-dark menuV">
-			  	<a class="nav-link active" style="margin-top:30px;" href="cadastrar.php">Início</a>
+			<div class="nav flex-column bg-dark menuV" style="min-height:2000px;">
+			  	<a class="nav-link active" style="margin-top:30px;" href="cadastrar.php">Professores Cadastrados</a>
 			  	<a class="nav-link" href="cadprof.php">Cadastrar Professores</a>
 			  	<a class="nav-link" href="cadcoor.php">Cadastrar Coordernadores</a>
 			  	<a class="nav-link" href="cadalu.php">Alunos Cadastrados</a>
+			  	<a class="nav-link" href="exclusao.php">Exclusão de Registros</a>
 			</div>
 		</div>
 		<div class="col-md-10">

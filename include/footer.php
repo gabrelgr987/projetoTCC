@@ -3,10 +3,10 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-sm-4">
-					<div class="contact" id="face">
+					<!-- <div class="contact" id="face">
 						<i class="fab fa-facebook-f"></i>
 						<p id="text1">TCC - InfoWorld</p>
-					</div>
+					</div> -->
 				</div>
 				<div class="col-sm-4">
 					<div class="contact" id="email">
@@ -15,10 +15,10 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div class="contact" id="link">
+					<!-- <div class="contact" id="link">
 						<i class="fab fa-linkedin"></i>
 						<p id="text3">TCC - InfoWorld</p>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>

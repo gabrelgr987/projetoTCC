@@ -105,6 +105,11 @@
 	{
 		font-size:16px;
 	}
+	.imgG
+	{
+		width:80px;
+		height:250px;
+	}
 </style>
 <body>
 	<!-- INÍCIO -->
@@ -128,7 +133,7 @@
 					<li><a href="#portfolio">Imagens</a></li>
 					<li><a href="#service">Serviços</a></li>
 					<li><a href="#team">Grupo</a></li>
-					<li><a href="#contact">Cadastre-se</a></li>
+					<li><a href="#contact">Primeiro Login</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -168,7 +173,7 @@
 					<div class="about">
 						<i class="fa fa-lock"></i>
 						<h3>Seguro</h3>
-						<p>Acesse o site com tranquilidade e segurança, todos os seus dados são criptografados no nosso servidor.</p>
+						<p>Acesse o site com tranquilidade e segurança, todos os dados estão seguros no nosso servidor.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -225,41 +230,41 @@
 						</div>
 					</div>
 				</div>
-				<!--
+				
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/service/work4.jpg" alt="">
+					<img class="img-responsive" src="img/trabalho/4.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Produção</span>
+						<h3>Produção do Site</h3>
+						<div class="work-link">
+							<a class="lightbox" href="img/trabalho/4.png"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="img/trabalho/5.jpeg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Produção</span>
+						<h3>Criação do Script de Cadastro</h3>
+						<div class="work-link">
+							<a class="lightbox" href="img/trabalho/5.jpeg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/trabalho/6.jpg" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Configuração</span>
 						<h3>Lorem ipsum dolor</h3>
 						<div class="work-link">
-							<a class="lightbox" href="./img/service/work4.jpg"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/trabalho/6.jpg"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/service/work5.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Configuração</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a class="lightbox" href="./img/service/work5.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/service/work6.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Configuração</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a class="lightbox" href="./img/service/work6.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				-->
 			</div>
 		</div>
 	</div>
@@ -390,7 +395,7 @@
 				<div class="col-sm-3">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive imgG" src="./img/grupo2/caique.jpg" alt="Caique">
+							<img class="img-responsive imgG" src="./img/grupo/caique.jpg" alt="Caique">
 							<div class="overlay">
 								<div class="team-social">
 									<button type="button" data-toggle="modal" class="btn-primary btn" data-target="#modalCaique" style="background-color:#0061ff;height:35px;width:40px;margin:5px;"><i class="fas fa-align-left fa-lg"></i></button>
@@ -406,7 +411,7 @@
 				<div class="col-sm-3">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive imgG" src="./img/grupo2/gabriel.jpg" alt="Gabriel">
+							<img class="img-responsive imgG" src="img/grupo/gabriel.jpg" alt="Gabriel">
 							<div class="overlay">
 								<div class="team-social">
 									<button type="button" data-toggle="modal" class="btn-primary btn" data-target="#modalGabriel" style="background-color:#0061ff;height:35px;width:40px;margin:5px;"><i class="fas fa-align-left fa-lg"></i></button>
@@ -422,7 +427,7 @@
 				<div class="col-sm-3">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="./img/grupo2/gustavo.png" alt="Gustavo">
+							<img class="img-responsive imgG" src="./img/grupo/gustavo.jpg" alt="Gustavo">
 							<div class="overlay">
 								<div class="team-social">
 									<button type="button" data-toggle="modal" class="btn-primary btn" data-target="#modalGustavo" style="background-color:#0061ff;height:35px;width:40px;margin:5px;"><i class="fas fa-align-left fa-lg"></i></button>
@@ -438,7 +443,7 @@
 				<div class="col-sm-3">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="./img/grupo2/igor.jpg" alt="Igor">
+							<img class="img-responsive imgG" src="./img/grupo/igor.jpg" alt="Igor">
 							<div class="overlay">
 								<div class="team-social">
 									<button type="button" data-toggle="modal" class="btn-primary btn" data-target="#modalIgor" style="background-color:#0061ff;height:35px;width:40px;margin:5px;"><i class="fas fa-align-left fa-lg"></i></button>
@@ -512,16 +517,6 @@
           			<p>
           				<i class="fab fa-facebook fa-2x"></i> &nbsp Gustavo Santos
           			</p>
-          			<!--
-          			<p>
-          				<i class="fab fa-linkedin fa-2x"></i>
-          			</p>
-          			-->
-          			<!--
-          			<p>
-          				<i class="fab fa-twitter fa-2x"></i>
-          			</p>
-          			-->
           			<br>
           			<div class="modal-footer">
           				<button type="button" class="btn btn-primary" align="right" data-dismiss="modal">Fechar</button>
@@ -563,83 +558,31 @@
 		<div class="container">
 			<div class="row">
 				<div class="section-header text-center">
-					<h2 class="title"> Faça seu Cadastro </h2>
+					<h2 class="title"> Primeiro Login </h2>
 				</div>
 				<div id="formpc">
 					<div class="col-md-12" >
 						<form class="contact-form" action="processa/conta.php" method="post">
-							<input type="text" id="nome" name="nome" class="input" placeholder="Nome Completo">
-							<i class="far fa-question-circle" onmouseover="aparecer('name')" onmouseout="desa('name')"></i>
-							<div id="name" class="divP">Insira seu nome completo, pode ter maiúsculas.</div>
-							<br>
-							<br>
 							<input type="text" id="login" name="login" class="input" placeholder="Nome de Usuário">
 							<i class="far fa-question-circle" onmouseover="aparecer('user')" onmouseout="desa('user')"></i>
-							<div id="user" class="divP">Insira um nome de usuário válido para o sistema.</div>
-							<br>
-							<br>
-							<input type="password" id="senha" name="senha" class="input" placeholder="Senha">
-							<i class="far fa-question-circle" for="senha" onmouseover="aparecer('sen')" onmouseout="desa('sen')"></i>
-							<div id="sen" class="divP">A senha deve conter no mínimo 8 caracteres.</div>
-							<br>
-							<br>
-							<input type="password" id="senha2" name="senha2" class="input" placeholder="Confirme sua Senha">
-							<i class="far fa-question-circle" onmouseover="aparecer('conf')" onmouseout="desa('conf')"></i>
-							<div id="conf" class="divP">Digite novamente sua senha para confirmação.</div>
-							<br>
-							<br>
-							<input type="email" id="email" name="email" class="input" placeholder="Email">
-							<i class="far fa-question-circle" onmouseover="aparecer('em')" onmouseout="desa('em')"></i>
-							<div id="em" class="divP">Insira seu e-mail completo, com "@" e seu provedor.</div>
+							<div id="user" class="divP">Insira um nome de usuário válidado no sistema.</div>
 							<br>
 							<br>
 							<input type="number" id="rm" name="rm" class="input" placeholder="RM">
 							<i class="far fa-question-circle" onmouseover="aparecer('regis')" onmouseout="desa('regis')"></i>
-							<div id="regis" class="divP">Insira seu RM, ele deverá conter 5 digitos.</div>
+							<div id="regis" class="divP">Insira o seu RM, ele contém 5 digitos.</div>
 							<br>
 							<br>
-							<select id="pergunta" name="pergunta">
-								<option disabled selected>Pergunta de Confirmação</option>
-								<option disabled></option>
-								<option value="animal">Nome do seu animal de estimação</option>
-								<option value="professor">Nome do seu primeiro professor</option>
-								<option value="rua">Nome da rua em que morou pela primeira vez</option>
-								<option value="fruta">Fruta favorita</option>
-								<option value="amigo">Nome do seu melhor amigo</option>
-							</select>
-							<i class="far fa-question-circle" onmouseover="aparecer('ques')" onmouseout="desa('ques')"></i>
-							<div id="ques" class="divP">Selecione uma pergunta de confirmação de conta.</div>
-							<br>
-							<br>
-							<br>
-							<input type="text" id="resposta" name="resposta" class="input" placeholder="Resposta">
-							<i class="far fa-question-circle" onmouseover="aparecer('res')" onmouseout="desa('res')"></i>
-							<div id="res" class="divP">Coloque a resposta da pergunta de confirmação.</div>
-							<br>
-							<button class="main-btn">Cadastrar</button>
+							<button class="main-btn">Completar Cadastro</button>
 						</form>
 					</div>
 				</div>
 				<div id="formcel">
 					<div class="col-md-12">
 						<form class="contact-form" action="processa/conta2.php" method="post">
-							<input type="text" id="nomeC" name="nomeC" class="input" placeholder="Nome Completo">
 							<input type="text" id="loginC" name="loginC" class="input" placeholder="Nome de Usuário">
-							<input type="password" id="senhaC" name="senhaC" class="input" placeholder="Senha">
-							<input type="password" id="senha2C" name="senha2C" class="input" placeholder="Confirme sua Senha">
-							<input type="email" id="emailC" name="emailC" class="input" placeholder="Email">
 							<input type="number" id="rmC" name="rmC" class="input" placeholder="RM">
-							<select id="perguntaC" name="perguntaC">
-								<option disabled selected>Pergunta de Confirmação</option>
-								<option disabled></option>
-								<option value="animal">Nome do seu animal de estimação</option>
-								<option value="professor">Nome do seu primeiro professor</option>
-								<option value="rua">Nome da rua em que morou pela primeira vez</option>
-								<option value="fruta">Fruta favorita</option>
-								<option value="amigo">Nome do seu melhor amigo</option>
-							</select>
-							<input type="text" id="respostaC" name="respostaC" class="input" placeholder="Resposta">
-							<button class="main-btn">Cadastrar</button>
+							<button class="main-btn">Completar Cadastro</button>
 						</form>
 					</div>
 				</div>
@@ -647,6 +590,8 @@
 		</div>
 	</div>
 	<!-- /CADASTRO -->
+
+<!-- SCRIPTS -->
 <script type="text/javascript">
 	function aparecer(x)
 	{
@@ -658,6 +603,8 @@
 		addClass('block')
 	}
 </script>
+<!-- /SCRIPTS -->
+
 <?php
 	include_once("include/footer.php");
 	include_once("include/scripts.php");

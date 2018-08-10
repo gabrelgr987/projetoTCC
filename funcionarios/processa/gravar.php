@@ -3,8 +3,8 @@
 	session_start();
 
 	//VARIÁVEIS
-	$uid = 1007;
-	$gid = 1007;
+	$uid = 1004;
+	$gid = 1004;
 	$shell = '/sbin/nologin';
 	$nomeProfessor = $_POST['professor'];
 	$apelido = $_POST['apelido'];
