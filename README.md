@@ -1,4 +1,4 @@
-# Sistema Desenvolvido para apresentação de TCC
+# Sistema Desenvolvido para o TCC
 <p align="center">
     <img src="https://i.imgur.com/KraVclx.gif" title="source: imgur.com" />
 </p>
