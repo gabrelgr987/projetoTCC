@@ -1,16 +1,16 @@
-# Site Desenvolvido para TCC
+# Sistema Desenvolvido para TCC
 <p align="center">
     <img src="https://i.imgur.com/KraVclx.gif" title="source: imgur.com" />
 </p>
-[InfoWorld] é uma empresa fictícia, criada para apresentar o projeto de TCC do curso Técnico em Redes de Computadores. O grupo conta com 4 integrantes que desenvolveram um sistema para gerenciamento de arquivos em uma escola.
+
+InfoWorld é uma empresa fictícia, criada para apresentar o projeto de TCC do curso Técnico em Redes de Computadores.
+O grupo conta com 4 integrantes que desenvolveram um sistema para gerenciamento de arquivos em uma escola.
+
+<hr style="border:1px solid #ff0000;">
 
 ## Projeto
 
 Consiste em um repositório de arquivos, baseado em FTP, com arquivos didáticos a serem passados para os alunos. O sistema oferece gerenciamento e controle de usuários, para o administrador ter controle e visão do sistema em geral, além de ter uma página de cadastro e login, para os alunos acessarem os arquivos. 
-
-## Site
-
-<img src="https://i.imgur.com/sHanpBr.png" title="source: imgur.com" />
 
 # Informações do Sistema
 
@@ -34,3 +34,7 @@ O sistema foi desenvolvido, a partir de tecnolgias que existem na área de Redes
 - MySQL;
 - JavaScript;
 - Shell Script.
+
+# Site
+
+<img src="https://i.imgur.com/sHanpBr.png" title="source: imgur.com" />
