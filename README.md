@@ -55,31 +55,9 @@ tests for CakePHP by doing the following:
    a non-SQLite datasource.
 3. Run `phpunit`.
 
-## Some Handy Links
+## Site
 
-* [CakePHP](https://cakephp.org) - The rapid development PHP framework.
-* [CookBook](https://book.cakephp.org) - The CakePHP user documentation; start learning here!
-* [API](https://api.cakephp.org) - A reference to CakePHP's classes.
-* [Awesome CakePHP](https://github.com/FriendsOfCake/awesome-cakephp) - A list of featured resources around the framework.
-* [Plugins](https://plugins.cakephp.org) - A repository of extensions to the framework.
-* [The Bakery](https://bakery.cakephp.org) - Tips, tutorials and articles.
-* [Community Center](https://community.cakephp.org) - A source for everything community related.
-* [Training](https://training.cakephp.org) - Join a live session and get skilled with the framework.
-* [CakeFest](https://cakefest.org) - Don't miss our annual CakePHP conference.
-* [Cake Software Foundation](https://cakefoundation.org) - Promoting development related to CakePHP.
-
-## Get Support!
-
-* [Slack](https://cakesf.herokuapp.com/) - Join us on Slack.
-* [#cakephp](https://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake.
-* [Forum](https://discourse.cakephp.org/) - Official CakePHP forum.
-* [GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
-* [Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
-
-## Contributing
-
-* [CONTRIBUTING.md](.github/CONTRIBUTING.md) - Quick pointers for contributing to the CakePHP project.
-* [CookBook "Contributing" Section](https://book.cakephp.org/3.0/en/contributing.html) - Details about contributing to the project.
+<a href="https://imgur.com/sHanpBr"><img src="https://i.imgur.com/sHanpBr.png" title="source: imgur.com" /></a>
 
 # Security
 
