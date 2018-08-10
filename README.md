@@ -3,10 +3,10 @@
     <img src="https://i.imgur.com/KraVclx.gif" title="source: imgur.com" />
 </p>
 
+## Empresa
+
 InfoWorld é uma empresa fictícia, criada para apresentar o projeto de TCC do curso Técnico em Redes de Computadores.
 O grupo conta com 4 integrantes que desenvolveram um sistema para gerenciamento de arquivos em uma escola.
-
-<hr style="border:1px solid #ff0000;">
 
 ## Projeto
 
